@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajeeh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style:none;
+    margin: 0 23px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.05rem;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.firstSection>div{
+    width: 40%;
+}
+
+.leftSection{
+    font-size: 2rem;
+    margin: 130px 0;
+    padding: 0 0 0 80px;
+}
+.rightSection{
+    padding-left: 45px;
+}
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+}
+.purple{
+    color: rgb(170, 107, 228);
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background-color:rgb(170, 107, 228);;
+    height: 1.3px;
+    margin: 40px 84px;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+    margin: 0px 167px 0 0;
+    padding: 0 0 37px;
+}
+.secondSection span{
+    margin: 0px 167px 0 0;
+}
+.box{
+    background-color: white;
+    margin: 23px 0;
+    width: 80vw;
+    height: 2px;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 97px;
+    width: 2px;
+    background-color: white;
+    margin: 0 167px;
+}
+.verticalTitle{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.verticalDesc{
+    position: relative;
+    top: 85px;
+    color: gray;
+    font-size: 10px;
+    width: 150px;
+}
+.imgTop{
+    position: relative;
+    left: -9px;
+    top: -32px;
+    width: 23px;
+}
+footer{
+    background-color: purple;
+   
+    height: 234px;
+}
+.footer{ 
+    display: flex;
+    padding: 23px 132px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+.footerrights{
+    text-align: center;
+    padding: 12px 0;
+    color: silver;
+}
+.button{
+    padding: 9px 12px 9px 15px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 39px -9px 0px 5px;
+}
+.btn{
+    width: 85px;
+}
+@media screen and (max-width: 1100px) {
+  body{
+    background-color: rgb(12, 108, 108);
+  }
+  .firstSection{
+    flex-direction: column;
+  }
+  .box{
+    flex-direction: column;
+  }
+  .secondSection{
+    height: unset;
+  }
+footer{
+    margin: 392px 0 0 0;
+  }
+.verticalTitle{
+        position: relative;
+        top: 20px;
+        width: 107px;
+        left: 31px;
+}
+.verticalDesc{
+        top: 19px;
+        left: 32px;
+        width: 376px;
+    }
+.secondSection .box{
+    width: 57vw;
+}
+.imgTop {
+    position: relative;
+    left: -9px;
+    top: 55px;
+    width: 23px;
+}
+nav{
+    flex-direction: column;
+}
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Wajeeh's Portfolio</div>
+            <div class="right"> 
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+       <section class="firstSection">
+       <div class="leftSection">Hi, My name is <span class="purple"> Wajeeh ul Hassan</span>
+        <div>and I am a Passionate </div>
+        <span id="element"></span>
+        <div class="btn">
+            <div class="button">Linkedn</div>
+        </div>
+       </div>
+       <div class="rightSection">
+        <img src="bgg.png"alt="">
+       </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+        <span>What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+            
+            <div class="vertical"><img class="imgTop" src="P.png" alt="">
+            <div class="verticalTitle">
+                Python Developer(2024)
+            </div>
+            <div class="verticalDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iusto dolore delectus, nam similique accusamus ex iure eum laboriosam tenetur soluta, minus neque distinctio excepturi, assumenda maiores at nostrum magni!</div>
+            </div>
+            <div class="vertical"><img class="imgTop" src="Html.png" alt="">
+                <div class="verticalTitle">
+                    Websites Developer(2025)
+                </div>
+                <div class="verticalDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iusto dolore delectus, nam similique accusamus ex iure eum laboriosam tenetur soluta, minus neque distinctio excepturi, assumenda maiores at nostrum magni!</div>
+                </div>
+                <div class="vertical"><img class="imgTop" src="Web.png" alt="">
+                    <div class="verticalTitle">
+                        Websites Designer(2024)
+                    </div>
+                    <div class="verticalDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iusto dolore delectus, nam similique accusamus ex iure eum laboriosam tenetur soluta, minus neque distinctio excepturi, assumenda maiores at nostrum magni!</div>
+                    </div>
+        </div>
+    </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Wajeeh's Developer Portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+            <div class="footerfourth">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerrights">
+            Copyright &#169; www.Wajeehsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Python Expert.', 'Web Developer.','Graphics Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
